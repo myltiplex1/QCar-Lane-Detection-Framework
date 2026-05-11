@@ -191,29 +191,11 @@ It is the recommended implementation for most autonomous driving applications in
 
 # Requirements
 
-Install dependencies:
-
-```bash
-pip install opencv-python numpy
-```
-
 Ensure:
 
-- Quanser QLabs is installed
-- QCar simulation is configured correctly
+- Quanser QLabs is installed and running
+- QCar simulation environment is configured correctly
 - Camera streaming is enabled
-
----
-
-# Future Improvements
-
-- Deep learning lane segmentation
-- PID/MPC steering controller integration
-- Multi-lane tracking
-- Traffic sign detection
-- Real-world camera deployment
-- ROS2 integration
-- Kalman filter lane tracking
 
 ---
 
