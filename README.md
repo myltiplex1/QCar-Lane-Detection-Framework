@@ -23,11 +23,11 @@ Advanced lane detection and lane-following algorithms for the Quanser QCar in QL
 
 ```bash
 .
-├── script1_calibrated_bev.py
-├── script2_fixedwarp_bev.py
-├── script3_tweaked_bev.py
-├── script4_hough_memory.py
-├── script5_reactive_hough.py
+├── script1- 1_calib_bev_sliding_window_em.py
+├── script2- 2_fixed_bev_sliding_wind_basic_pull.py
+├── script3- 3_fixed_bev_sliding_wind_tweaked_p.py
+├── script4- 4_hough_raw_view_with_memory_full.py
+├── script5- 5_hough_raw_view_reactive_f.py
 ├── calibration/
 │   ├── warp_points.npy
 │   ├── lane_width.npy
