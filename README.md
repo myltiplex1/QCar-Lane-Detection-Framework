@@ -191,4 +191,4 @@ Ensure:
 
 # Demo
 
-![Lane Detection](images/lane.jpg)
+![Lane Detection](lane.jpg)
