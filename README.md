@@ -32,7 +32,7 @@ Advanced lane detection and lane-following algorithms for the Quanser QCar in QL
 calibration_files:
 │   ├── data_calibration.npy
 │   ├── data_hsv.npy
-|   ├── data_width.npy
+│   ├── data_width.npy
 │   └── view_npy.py
 └── README.md
 ```
@@ -177,18 +177,6 @@ The calibration-focused BEV detector provides the best balance of:
 - Visualization tools
 - Long-term usability
 
-It is the recommended implementation for most autonomous driving applications in QLabs.
-
----
-
-# Technologies Used
-
-- Python
-- OpenCV
-- NumPy
-- Quanser QLabs
-- Quanser QCar API
-
 ---
 
 # Requirements
@@ -203,4 +191,4 @@ Ensure:
 
 # Demo
 
-Add screenshots, GIFs, or simulation videos here.
+![Lane Detection](images/lane.jpg)
